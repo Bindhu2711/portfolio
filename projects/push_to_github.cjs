@@ -33,7 +33,7 @@ function githubRequest(path, method, body) {
       res.on('end', () => {
         try {
           resolve({ status: res.statusCode, body: data ? JSON.parse(data) : {} });
-        } catch (e) {
+        } catch {
           resolve({ status: res.statusCode, body: data });
         }
       });
