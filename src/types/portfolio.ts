@@ -96,7 +96,7 @@ export interface Achievement {
   id: string;
   title: string;
   organization: string;
-  date: string;
+  date?: string;
   category: AchievementCategory;
   description: string;
   verificationUrl?: string;

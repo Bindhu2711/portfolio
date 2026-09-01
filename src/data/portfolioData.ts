@@ -296,41 +296,102 @@ export const portfolioData: PortfolioData = {
   },
 
   achievements: [
+    // 🏆 Hackathons
     {
-      id: 'ach-1',
-      title: 'Hackathon Finalist / Presenter',
-      organization: 'College Technical Fest / Innovation Hackathon',
-      date: '2025',
+      id: 'ach-mentis-hackathon',
+      title: 'MENTIS Hackathon',
+      organization: 'MENTIS Innovation Challenge',
       category: 'Hackathons',
-      description: 'Selected to present CAMPUSGUARD AI platform demo before faculty and industry mentors, earning recognition for practical emergency workflow design.',
-      badge: 'Hackathon Highlight'
+      description: 'Developed and presented AI for Early Mental Health & Emotional Well-being solution.',
+      badge: 'Participant'
     },
     {
-      id: 'ach-2',
-      title: 'AI & ML Technical Workshop Certificate',
-      organization: 'Vaagdevi College of Engineering / Tech Club',
-      date: '2025',
+      id: 'ach-dims-hackathon',
+      title: 'DIMS Hackathon',
+      organization: 'DIMS Technical Challenge',
+      category: 'Hackathons',
+      description: 'Collaborative problem solving and rapid technical prototyping during the hackathon.',
+      badge: 'Participant'
+    },
+
+    // 💼 Internships / Training
+    {
+      id: 'ach-codealpha-internship',
+      title: 'CodeAlpha Internship',
+      organization: 'CodeAlpha',
+      category: 'Internships',
+      description: 'Hands-on technical development internship working on practical software tasks.',
+      badge: 'Internship'
+    },
+    {
+      id: 'ach-bluestock-internship',
+      title: 'Bluestock Internship',
+      organization: 'Bluestock',
+      category: 'Internships',
+      description: 'Technical internship experience focused on software development and domain learning.',
+      badge: 'Internship'
+    },
+    {
+      id: 'ach-aws-eduskills',
+      title: 'AWS in EduSkills',
+      organization: 'AWS Academy / EduSkills Foundation',
+      category: 'Internships',
+      description: 'Cloud computing foundation and practical technical skills training via the AWS EduSkills initiative.',
+      badge: 'Training'
+    },
+
+    // 🎓 Workshops
+    {
+      id: 'ach-iith-workshop',
+      title: 'IIT Hyderabad (IITH) Workshop',
+      organization: 'IIT Hyderabad',
       category: 'Workshops',
-      description: 'Completed multi-day intensive workshop covering supervised machine learning algorithms, model evaluation, and Python data science stack.',
-      badge: 'Certified'
+      description: 'Attended specialized technical workshop conducted by IIT Hyderabad covering engineering and technology concepts.',
+      badge: 'Workshop'
     },
     {
-      id: 'ach-3',
-      title: 'Python for Data Science & AI Certification',
-      organization: 'Online Learning Platform (NPTEL / Coursera)',
-      date: '2024',
-      category: 'Certifications',
-      description: 'Successfully passed coursework covering NumPy, Pandas, data processing, and basic algorithm execution in Python.',
-      badge: 'Verified Course'
+      id: 'ach-claude-ai-workshop',
+      title: 'Claude AI Workshop',
+      organization: 'Claude AI Technical Workshop',
+      category: 'Workshops',
+      description: 'Interactive session on prompt engineering, large language model capabilities, and conversational AI systems.',
+      badge: 'Workshop'
     },
     {
-      id: 'ach-4',
+      id: 'ach-college-ai-workshop',
+      title: 'AI & ML Technical Workshop',
+      organization: 'Vaagdevi College of Engineering / Tech Club',
+      category: 'Workshops',
+      description: 'Completed workshop covering machine learning algorithms, model evaluation, and Python data science tools.',
+      badge: 'Workshop'
+    },
+    {
+      id: 'ach-college-web-bootcamp',
       title: 'Web Development Hands-on Bootcamp',
       organization: 'Department of Computer Science',
-      date: '2024',
       category: 'Workshops',
-      description: 'Participated in full-stack web basics training focusing on HTML5, modern CSS layouts, DOM manipulation, and responsive web design.',
-      badge: 'Completed'
+      description: 'Participated in full-stack web basics training focusing on HTML5, modern CSS layouts, and responsive design.',
+      badge: 'Workshop'
+    },
+
+    // 📜 Certifications
+    {
+      id: 'ach-python-ds-ai',
+      title: 'Python for Data Science & AI Certification',
+      organization: 'Online Learning Platform (NPTEL / Coursera)',
+      category: 'Certifications',
+      description: 'Coursework covering NumPy, Pandas, data processing, and basic algorithm execution in Python.',
+      badge: 'Certification'
+    },
+
+    // 🌟 Other
+    {
+      id: 'ach-mahindra-pride',
+      title: 'Naandi Mahindra Pride Classroom',
+      organization: 'Naandi Foundation & Mahindra Pride',
+      category: 'Other',
+      description: 'Awarded completion recognition for comprehensive professional skill development, communicative competence, and workplace readiness training.',
+      badge: 'Awarded'
     }
   ],
 
@@ -481,6 +542,11 @@ export const portfolioData: PortfolioData = {
       keywords: ['education', 'college', 'degree', 'university', 'cgpa'],
       question: 'What is her education background?',
       answer: 'Bindhu is pursuing her B.Tech degree in Computer Science & Engineering (AI & ML) at Vaagdevi College of Engineering, spanning 2024 to 2028.'
+    },
+    {
+      keywords: ['achievement', 'achievements', 'hackathon', 'hackathons', 'internship', 'workshop', 'certifications', 'award'],
+      question: 'What hackathons, internships, and achievements has Bindhu completed?',
+      answer: 'Bindhu participated in the MENTIS Hackathon (AI for Early Mental Health) and DIMS Hackathon, completed internships/training with CodeAlpha, Bluestock, and AWS in EduSkills, attended workshops at IIT Hyderabad (IITH) and Claude AI, earned the Python for Data Science & AI certification, and was awarded the Naandi Mahindra Pride Classroom completion.'
     }
   ]
 };

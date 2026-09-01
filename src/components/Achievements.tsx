@@ -7,7 +7,7 @@ export const Achievements: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<AchievementCategory>('All');
   const { achievements } = portfolioData;
 
-  const categories: AchievementCategory[] = ['All', 'Hackathons', 'Certifications', 'Workshops', 'Internships', 'Other'];
+  const categories: AchievementCategory[] = ['All', 'Hackathons', 'Internships', 'Workshops', 'Certifications', 'Other'];
 
   const filteredAchievements = activeCategory === 'All'
     ? achievements
@@ -59,9 +59,11 @@ export const Achievements: React.FC = () => {
                   <span className="text-[10px] font-mono font-semibold px-2.5 py-0.5 rounded-full bg-purple-950 text-purple-300 border border-purple-800">
                     {item.category}
                   </span>
-                  <span className="text-xs font-mono text-slate-500">
-                    {item.date}
-                  </span>
+                  {item.date && (
+                    <span className="text-xs font-mono text-slate-500">
+                      {item.date}
+                    </span>
+                  )}
                 </div>
 
                 <h3 className="text-xl font-bold text-white mb-1">
